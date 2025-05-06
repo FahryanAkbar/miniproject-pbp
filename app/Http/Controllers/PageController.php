@@ -13,10 +13,6 @@ class PageController extends Controller
         return view('home');
     }
 
-    public function dummy() {
-        return view('dummy');
-    }
-
     public function biodata() {
         $data = Biodata::staticData();
         return view('biodata', compact('data'));
