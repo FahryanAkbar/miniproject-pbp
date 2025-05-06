@@ -10,8 +10,8 @@ class Portofolio extends Model
     {
         return [
             'nama' => 'Fahryan Akbar',
-            'judul' => 'Full Snack Developer',
-            'deskripsi_singkat' => 'Spesialis pengembangan web dengan pengalaman 3+ tahun membangun aplikasi menggunakan Laravel dan Riek.js',
+            'judul' => 'Full Stack Developer',
+            'deskripsi_singkat' => 'Spesialis pengembangan web dengan pengalaman 3+ tahun membangun aplikasi menggunakan Laravel dan React.js',
             'proyek' => [
                 [
                     'nama' => 'Sistem Informasi Manajemen Rumah Sakit (SIMRS)',
@@ -24,16 +24,16 @@ class Portofolio extends Model
                 ],
                 [
                     'nama' => 'My - To Do List',
-                    'deskripsi' => 'Platform penjualan online untuk usaha kecil dengan integrasi pembayaran digital',
+                    'deskripsi' => 'Website Serupa Notion Untuk Tracking Habbit Sehari-hari',
                     'teknologi' => ['Laravel', 'Livewire', 'Midtrans API', 'Bootstrap'],
                     'tahun' => 2023,
                     'foto-porto' => asset('images/kucingg.jpg'),
                     'link' => asset('images/kucingg.jpg'),
-                    'gambar' => 'ecommerce-umkm.jpg'
+                    'gambar' => 'My-To Do List.jpg'
                 ],
                 [
                     'nama' => 'Sembakoku',
-                    'deskripsi' => 'Platform penjualan online untuk usaha kecil dengan integrasi pembayaran digital',
+                    'deskripsi' => 'Program Multi Platform untuk Membeli Sembako Secara Digital',
                     'teknologi' => ['Laravel', 'Livewire', 'Midtrans API', 'Bootstrap'],
                     'tahun' => 2024,
                     'foto-porto' => asset('images/kucingg.jpg'),
@@ -42,7 +42,7 @@ class Portofolio extends Model
                 ],
                 [
                     'nama' => 'Sigma Academy',
-                    'deskripsi' => 'Platform penjualan online untuk usaha kecil dengan integrasi pembayaran digital',
+                    'deskripsi' => 'Website Online Course Berbayar yang serupa dengan Ruangguru dan Udemy',
                     'teknologi' => ['Laravel', 'Livewire', 'Midtrans API', 'Bootstrap'],
                     'tahun' => 2024,
                     'foto-porto' => asset('images/kucingg.jpg'),
@@ -59,15 +59,15 @@ class Portofolio extends Model
             'pengalaman' => [
                 [
                     'posisi' => 'Web Developer',
-                    'perusahaan' => 'PT. Gatau wak, Dipikir nanti',
+                    'perusahaan' => 'PT. Indo Media Teknologi',
                     'periode' => '2021 - 2022',
-                    'deskripsi' => 'Mengembangkan dan memelihara aplikasi web perusahaan (keknya)'
+                    'deskripsi' => 'Mengembangkan dan memelihara aplikasi web perusahaan'
                 ],
                 [
                     'posisi' => 'Freelance Developer (Kerjain Project Temen)',
                     'perusahaan' => 'Self-Employed',
                     'periode' => '2022 - sekarang',
-                    'deskripsi' => 'Membangun aplikasi web sesuai kebutuhan klien (klien nya teman sy)'
+                    'deskripsi' => 'Membangun aplikasi web sesuai kebutuhan klien'
                 ]
             ],
             'pendidikan' => [

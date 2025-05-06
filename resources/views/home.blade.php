@@ -9,7 +9,7 @@
             <div class="row h-100 align-items-center">
                 <div class="col-lg-6 text-white">
                     <h1 class="display-4 fw-bold mb-4">Fahryan Akbar</h1>
-                    <p class="lead mb-4">Full Snack Developer & UI Enthusiast</p>
+                    <p class="lead mb-4">Full Stack Developer & UI Enthusiast</p>
                     <p class="mb-5">Membangun solusi digital yang elegan dan fungsional dengan teknologi modern</p>
                     <div class="d-flex flex-wrap gap-3">
                         <a href="{{ route('portfolio') }}" class="btn btn-light btn-lg px-4">
@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <img src="{{ asset('images/kucingg.jpg') }}" alt="Illustration" class="img-fluid" style="max-height: 500px;">
+                    <img src="{{ asset('images/hero-3.png') }}" alt="Illustration" class="img-fluid" style="max-height: 500px;">
                 </div>
             </div>
         </div>
@@ -71,7 +71,7 @@
                         <img src="{{ asset('images/sembako.jpg') }}" class="card-img-top" alt="E-Commerce" style="height: 180px; object-fit: cover;">
                         <div class="card-body d-flex flex-column">
                             <h5 style="color: #2c3e50;">Sembakoku</h5>
-                            <p class="text-muted mb-3">Platform E-Commerce UMKM</p>
+                            <p class="text-muted mb-3">Program Multi Platform Order Sembako</p>
                             <div class="d-flex flex-wrap gap-2 mb-3">
                                 <span class="badge bg-primary">Laravel</span>
                                 <span class="badge bg-primary">Livewire</span>
